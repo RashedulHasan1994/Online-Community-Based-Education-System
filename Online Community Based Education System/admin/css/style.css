@@ -1,0 +1,258 @@
+.admin-body{background:linear-gradient(165deg,#376f9d 100%,#66cdcc 100%);}
+.header{margin: 0px;}
+.branding{padding: 0px;background:linear-gradient(165deg,#376f9d 0,#66cdcc 100%);}
+.site-name{}
+.site-name p{font-size: 21px;color: lightgoldenrodyellow;margin-top: 9px;}
+.admin-item{padding: 0px;}
+.admin-item ul{list-style:none;margin-left: 45px;}
+.admin-item ul li{float:left;color:#fff;padding: 14px 10px 15px 18px;cursor:pointer;}
+.admin-item-pos{position: absolute;right: 25px;}
+.dd-menu-style{position:absolute;left: -142px;top: 47px;width:200px;padding: 6px;}
+.admin-pic{}
+.admin-pic img{width:70px;height:60px;background:lightgray;border-radius:50%;padding:3px;}
+.admin-item-list{}
+.admin-item-list ul{}
+.admin-item-list ul li{color:gray;padding: 2px 0px 8px 22px;}
+.admin-item-list ul li:hover{color:black;}
+.haeder-menu{background: #2C5779;padding: 0px;}
+.haeder-menu ul{list-style:none;padding: 0px;}
+.haeder-menu ul li{float:left;padding: 15px 15px 15px 15px;margin-right: 5px;}
+.haeder-menu ul li:hover{background:#3D7AA3;}
+.haeder-menu ul li a{text-decoration:none;color:white;font-size: 15px;font-weight: bold;}
+.haeder-menu ul li a i{margin-right:4px;}
+.main-content{margin:0px;background:linear-gradient(165deg,#376f9d 100%,#66cdcc 100%);}
+.left-message{background: lightgoldenrodyellow;margin-top: 39px;height:326px;box-shadow: 2px 2px 2px 2px lightgray;margin-left: 222px;}
+.left-message h1{font-weight:bold;margin-top: 130px;}
+.right-message{background: lightgoldenrodyellow;margin-top: 39px;box-shadow: 2px 2px 2px 2px lightgray;}
+.right-message h3{font-size:22px;font-weight:bold;text-align: justify;}
+.right-message p{font-size:16px;text-align:justify;padding:0px 5px 5px 5px;}
+.sidebar{background:lightslategrey;padding:0px;position:relative;height: 500px;}
+.sidebar ul{list-style:none;padding:0px;}
+.sidebar ul li{padding: 8px 10px;font-size: 17px;color:white;cursor:pointer;}
+.sidebar ul a:hover{text-decoration:none;}
+.sidebar ul li:hover{padding: 8px 5px;background:#4F9FB5;border-left:5px inset #2C5779;}
+.icon-pos{position:absolute;right:12px;font-size: 20px;}
+.panel-body{background:#fff;padding:0px;height:500px;}
+.footer{background:linear-gradient(165deg,#376f9d 0,#66cdcc 100%);}
+.footer-note{}
+.footer-note p{padding: 10px;margin-top: 5px;color:lightgrey;}
+.option-list1{display:none;}
+.option-list1 ul li{}
+.option-list1 li a{text-decoration:none;padding-left: 5px;color:white;font-size: 15px;}
+.option-list2{display:none;}
+.option-list2 ul li{}
+.option-list2 li a{text-decoration:none;padding-left: 5px;color:white;font-size: 15px;}
+.option-list3{display:none;}
+.option-list3 ul li{}
+.option-list3 li a{text-decoration:none;padding-left: 5px;color:white;font-size: 15px;}
+.option-list4{display:none;}
+.option-list4 ul li{}
+.option-list4 li a{text-decoration:none;padding-left: 5px;color:white;font-size: 15px;}
+.home-page-title{background:#E6F0F3;border-bottom: 1px solid #B3CBD6;margin-bottom: 20px;}
+.home-page-title h4{color: #1B548D;font-weight: bold;}
+.page-title{background:#E6F0F3;border-bottom: 1px solid #B3CBD6;}
+.page-title h4{color: #1B548D;font-weight: bold;}
+.siteSlogan-panel-body{background:#fff;padding:0px;height:500px;}
+.scndLesson-panel-body{background:#fff;padding:0px;}
+/* copyright page style start here */
+.copyright-panel-body{background:#fff;padding:0px;height:500px;}
+.copyright-form{margin-top: 30px;}
+.copyright-form h6{font-size:15px;background: lightgoldenrodyellow;}
+/* copyright page style end here */
+/* secondary add subject page style start here */
+.scnd-addSubject-panel-body{background:#fff;padding:0px;height:500px;}
+.scnd-addSubject-form{margin-top: 30px;}
+.scnd-addSubject-form h6{font-size:15px;background: lightgoldenrodyellow;}
+/* secondary add subject page style end here */
+
+/* login style start here */
+* {
+    box-sizing: border-box;
+}
+
+/* form starting stylings ------------------------------- */
+.group {
+    position: relative;
+    margin-bottom: 35px;
+}
+
+input {
+    font-size: 18px;
+    padding: 5px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #006699;
+    background: #F8F8F8;
+}
+
+    input:focus {
+        outline: none;
+    }
+
+/* LABEL ======================================= */
+label {
+    color: #006699;
+    font-size: 15px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label, input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: blue;
+}
+
+/* BOTTOM BARS ================================= */
+.bar {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+    .bar:before, .bar:after {
+        content: '';
+        height: 2px;
+        width: 0;
+        bottom: 1px;
+        position: absolute;
+        background: #006699;
+        transition: 0.2s ease all;
+        -moz-transition: 0.2s ease all;
+        -webkit-transition: 0.2s ease all;
+    }
+
+    .bar:before {
+        left: 50%;
+    }
+
+    .bar:after {
+        right: 50%;
+    }
+
+
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+    width: 50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    -moz-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+    from {
+        background: #fff;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@-moz-keyframes inputHighlighter {
+    from {
+        background: #fff;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@keyframes inputHighlighter {
+    from {
+        background: #fff;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+
+#panel {
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: rgba(0, 0, 0, 0.1) 2px 8px 5px 2px;
+    background: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(90deg, #fff 0%, #fff 100%); /* Standard syntax (must be last) */
+    
+    
+    border-radius: 4px;
+    top: 10px;
+	margin-bottom:20px;
+}
+.login-image{margin-bottom:5px;}
+.login-image img{width:200px;height:200px;}
+.login-form{background: #1167A0;height: 180px;}
+.login-page-siteBrand{margin-top: 30px;}
+.login-page-siteBrand img{}
+.form-body{margin-top: 0px;}
+.askQuestion-form{margin:0px 10px;}
+.askQuestion-tvalue{margin-bottom: 20px;}
+/* login style end here */
+.form-style{padding:20px 0px;}
+.gender{padding:0px;margin-top: 10px;}
+.address{margin-bottom:20px;}
+.signup-form{margin-bottom:50px;}
+.signup-form h6{font-size:16px;}
+.signup{margin-top:20px;}
+.singup-success{padding:0px;}
+.singup-success h6{background:#5FBA7D;color: #fff;padding:15px;border-radius:4px;}
+/* varsity_add_department page style start here */
+#uvs-faculty-list{height:32px;}
+.varsity-addDepartment-form{margin-top:30px;}
+.varsity-addDepartment-form-right{margin-top:30px;background:lightgoldenrodyellow;}
+
+/* scnd_add_lesson page style start here */
+.scnd-add-lesson-form{margin-top: 30px;}
+.scnd-add-lesson-form h6{font-size:15px;background: lightgoldenrodyellow;}
+#class{height:40px;}
+#subject{height:40px;}
+
+/* update_logo page style start here */
+.update-logo-form{height:429px;margin-top: 30px;}
+.update-logo-form h6{font-size:15px;background: lightgoldenrodyellow;}
+
+/* adminProfile page style start here */
+.profileInfo {margin-top:50px;}
+.profileInfo h2{}
+.profileInfo p{font-size:16px;}
+.profilePic {margin-top:50px;}
+.profilePic img{width:250px;height:220px;border-radius: 116px;}
+
+/* editProfile page style start here */
+.editProfile{margin-top:20px;}
+.field-title p{margin-top:4px;float:right;}
+

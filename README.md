@@ -1,0 +1,1 @@
+Bangla Academy is a web application. This system is developed to make a strong community that helps to get any types of necessary information. This system is based entirely on Bangla. 
